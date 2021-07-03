@@ -1,0 +1,12 @@
+{
+  "version": "0.0.12",
+  "name": "verdaccio-publishauth",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@verdaccio/commons-api": "^10.0.0"
+  }
+}
