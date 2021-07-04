@@ -18,7 +18,7 @@ class DynamicGroupPlugin {
     if (pkgVersion.indexOf('beta') > -1 ||  users.split(' ').indexOf(userName) > -1) {
       return callback(null, true)
     } else {
-      return callback(commonsApi.getUnauthorized('auth fail'))
+      return callback(commonsApi.getUnauthorized('You do not have permission to publish this version. Please contact the administrator.'))
     }
   }
 }
